@@ -12,13 +12,14 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const  Text('Custom Button'),
+        title:const  Center(child:   Text('Custom Button')),
 
       ),
 
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          
+
         ],
       ),
     );
